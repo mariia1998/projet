@@ -16,7 +16,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('app/index.html')
+  mainWindow.loadFile('app/javascript.html')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
@@ -58,7 +58,7 @@ const template = [
   {
     label: 'Action',
     submenu: [
-      { label: 'Dashboard',click(){mainWindow.loadFile('app/index.html')}},
+      { label: 'Dashboard',click(){mainWindow.loadFile('app/javascript.html')}},
       { type: 'separator' },
 
     {label:'Funds' ,click(){
